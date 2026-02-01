@@ -20,4 +20,4 @@ console.log(name, age); // o/p sarang 23
 
 const hobbies = ['Gym', 'Cooking'];
 const [hobby1, hobby2] = hobbies;
-console.log(hobby1, hobby2); // o/p - Gym Cooking
+console.log(hobby1, hobby2); // o/p - Gym Cooking 
