@@ -12,4 +12,4 @@ setTimeout (() =>{
 }, 2000);
 
 console.log('Hello!');
-console.log('Hi!');
+console.log('Hi!'); 
