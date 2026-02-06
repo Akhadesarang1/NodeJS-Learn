@@ -40,6 +40,8 @@
 - Non-blocking I/O
 - Event-driven architecture
 - Single-threaded but highly efficient
+- # Node is single-threaded for JS but uses background worker threads for heavy tasks to stay non-blocking.
+- # Event loop phases showing how Node executes async callbacks step-by-step.
 
 ---
 
