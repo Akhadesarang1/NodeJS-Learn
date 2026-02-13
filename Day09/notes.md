@@ -1,11 +1,96 @@
-Day09
-1. shared data across requests and users , used module exporting bcoz of it any file can access imports of admin.js
-2. had an overview to templating engines - pug , ejs, handlerbar
-3. installed pug , ejs, handlerbar and impplemented pug
-4. outputted dynamic content using pug by #{docTitle} for title
-5. converted html files to pug and added layout
-6. worked with handlebars
-7. converted whole project to handle bar by - implementing , registering handlebar and setting it as view engine
-8. then addded layout to handlebars
-9. Worked with EJS
-10. 
+
+# NodeJS Learning Notes — Day 09
+
+## 1. Sharing Data Across Requests and Users
+
+- Learned how to share data between different routes and users.
+- Used **module exporting** so that data/functions from `admin.js` can be accessed in other files.
+- Improved understanding of Node.js module system (`module.exports` and `require()`).
+
+---
+
+## 2. Overview of Templating Engines
+
+Explored different templating engines used in Node.js:
+
+- **Pug**
+- **EJS**
+- **Handlebars**
+
+Key concept:
+
+- Templating engines allow dynamic HTML rendering.
+- Help separate backend logic from frontend views.
+
+---
+
+## 3. Working with Pug
+
+### Installation & Setup
+
+- Installed Pug as a templating engine.
+- Configured it as the view engine in Express.
+
+### Implementation
+
+- Converted HTML files into `.pug` templates.
+- Implemented layout structure.
+
+### Dynamic Content
+
+- Output dynamic content using variables:
+
+title #{docTitle}
+````
+
+---
+
+## 4. Working with Handlebars
+
+### Setup
+
+* Installed Handlebars.
+* Registered Handlebars with Express.
+* Set Handlebars as the view engine.
+
+### Implementation
+
+* Converted entire project views to Handlebars.
+* Added layout support.
+
+---
+
+## 5. Working with EJS
+
+* Installed and explored EJS templating engine.
+* Compared syntax and structure with Pug and Handlebars.
+
+---
+
+## 6. Layouts and Partials
+
+* Implemented layouts for reusable page structure.
+* Worked with partials to reuse components like:
+
+  * Header
+  * Footer
+  * Navigation
+
+Benefits:
+
+* Cleaner code structure
+* Reusability
+* Better maintainability
+
+---
+
+## Summary
+
+Today’s focus was on:
+
+* Sharing data across requests using modules.
+* Understanding templating engines (Pug, Handlebars, EJS).
+* Implementing dynamic views.
+* Converting static HTML into templated views.
+* Using layouts and partials for reusable UI components.
+
