@@ -36,15 +36,14 @@ exports.getCart = (req, res, next) => {
   res.render('shop/cart', {
     path: '/cart',
     pageTitle: 'Your Cart'
-  }); 
+  });
 };
 
 exports.postCart = (req, res, next) => {
   const prodId = req.body.productId;
-  Product.findById(prodId, (product) => {
+  Product.findById(prodId, product => {
     Cart.addProduct(prodId, product.price);
   });
-  console.log(prodId);
   res.redirect('/cart');
 };
 
