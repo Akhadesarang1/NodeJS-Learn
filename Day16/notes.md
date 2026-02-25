@@ -97,7 +97,7 @@ Parameterized queries (?) improve security and prevent SQL injection.
 
 Fetch Single Product
 db.execute(
-  'SELECT * FROM products WHERE id = ?',
+  'SELECT * FROM products WHERE id = ?', 
   [prodId]
 );
 Key Learnings
