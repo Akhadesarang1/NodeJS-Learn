@@ -5,7 +5,7 @@ exports.getAddProduct = (req, res, next) => {
     pageTitle: 'Add Product',
     path: '/admin/add-product',
     editing: false
-  });
+  }); 
 };
 
 exports.postAddProduct = (req, res, next) => {
