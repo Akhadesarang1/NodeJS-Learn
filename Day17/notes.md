@@ -4,3 +4,4 @@ Day17
 3. Configured Sequelize instance to connect Node.js application with MySQL database using database name, username, password, dialect, and host.
 4. Defined Product model using Sequelize to represent the products table with fields id, title, price, imageUrl, and description.
 5. sequelize.sync() synchronizes Sequelize models with the database by automatically creating tables if they do not already exist.
+6. Product.create() inserts a new record into the database table based on the Sequelize model.
