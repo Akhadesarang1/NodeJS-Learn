@@ -5,3 +5,4 @@ Day17
 4. Defined Product model using Sequelize to represent the products table with fields id, title, price, imageUrl, and description.
 5. sequelize.sync() synchronizes Sequelize models with the database by automatically creating tables if they do not already exist.
 6. Product.create() inserts a new record into the database table based on the Sequelize model.
+7. Product.findAll() retrieves all records from the database table and returns them as an array of objects.
