@@ -4,4 +4,5 @@ Day19
 3. Implemented a dummy user setup by checking if a user exists in the database after Sequelize sync, creating one if not present, and attaching the user to every request using middleware.
 4. Used Sequelize magic association method `createProduct()` to create a product through the User model, automatically linking the product with the user's foreign key.
 5. Used Sequelize magic association method `getProducts()` to fetch products related to the current user with filtering using a where condition.
-6. 
+6. Implemented one-to-one relationship between User and Cart and a many-to-many relationship between Cart and Product using CartItem as the junction table to store product quantities.
+7. Implemented one-to-one relationship between User and Cart and a many-to-many relationship between Cart and Product using CartItem as the junction table to store product quantities.
