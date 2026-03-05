@@ -3,4 +3,4 @@ Day20
 2. Implemented cart product management using Sequelize by checking existing items, updating quantity for duplicates, and retrieving cart products.
 3. Implemented cart product deletion by removing the related entry from the CartItems junction table using destroy().
 4. Added Order and OrderItem models to store cart products as order items using a many-to-many Sequelize association.
-5. 
+5. Implemented order creation from cart items, cleared the cart after checkout, and fetched user orders with associated products.
